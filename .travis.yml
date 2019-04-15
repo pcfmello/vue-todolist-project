@@ -4,7 +4,7 @@ node_js:
   - '10.15.3'
 
 cache:
-  yarn: true
+  yarn: false
   directories:
     - node_modules
 
