@@ -10,4 +10,4 @@ cache:
 
 script:
   # - yarn test #caso você tenha algum teste para ser rodado
-  - bash ./deploy.sh
+  - bash deploy.sh
