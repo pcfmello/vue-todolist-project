@@ -20,6 +20,8 @@ export default {
         addTodo(e) {
             e.preventDefault();
 
+            if (!this.title) return;
+
             const newTodo = {
                 title: this.title,
                 completed: false
